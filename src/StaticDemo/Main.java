@@ -10,6 +10,9 @@ public class Main {
 		product.name="";
 		product.price=10;
 		productManager.add(product);
+		
+		//Inner class örneği
+		DatabaseHelper.Connection.createConnection();
 
 	}
 
